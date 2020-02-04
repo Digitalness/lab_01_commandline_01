@@ -17,8 +17,11 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+Adlm			Documents		Pictures
+Adobe			Downloads		Public
+Applications		Library			Sites
+Creative Cloud Files	Movies			isus
+Desktop			Music
 
 ==========
 2a. Type: 
@@ -27,19 +30,18 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
-
+Absolutely nothing.
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,7 +51,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+Adobe
+Adobe Flash Builder 4.6
 
 
 ==========
@@ -59,7 +62,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Arduino			MuseLog.txt
+..			Autodesk		Native Instruments
 
 
 ==========
@@ -69,7 +73,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -79,7 +83,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -1 Documents
 
 
 ==========
@@ -90,7 +94,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+It autocompletes Vol to Volumes 
 
 ==========
 8.  Type:
@@ -99,38 +103,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+UP
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a, -1
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+TAB
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls Documents
 
 ==========
 14.  Type:
@@ -140,7 +144,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +154,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +163,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls. flag is -a, arguments is Desktop, and the prompt is the dollar sign
